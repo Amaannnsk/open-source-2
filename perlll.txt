@@ -1,0 +1,152 @@
+printf"welcome to csmu\n";
+ print "enter your name: ";
+ my $name=<STDIN>;
+
+ print "enter your mobile number : ";
+ my $mobilenumber=<STDIN>;
+
+print "enter your city: ";
+ my $city=<STDIN>;
+
+print "enter your distrct: ";
+ my $district=<STDIN>;
+
+print "enter your gender: ";
+ my $gender=<STDIN>;
+
+print "enter your Fathername: ";
+ my $fathername=<STDIN>;
+
+print "enter your mothername: ";
+ my $mothername=<STDIN>;
+
+print "enter your pincode: ";
+ my $pincode=<STDIN>;
+
+print "enter your Semester: ";
+ my $semester=<STDIN>;
+
+print "enter your coursename: ";
+ my $coursename=<STDIN>;
+print "\n\n";
+
+print "Your name is $name";
+print "Your name is $mobilenumber";
+print "Your city is $city";
+print "Your district is $district";
+print "Your gender is $gender";
+print "Your fathername is $fathername";
+print "Your mothername is $mothername";
+print "Your pincode is $pincode";
+print "Your semester is $semester";
+print "Your coursename is $coursename";
+
+
+
+
+
+
+
+
+
+
+
+[22:48, 2/24/2023] Sahil CSMU: printf"welcome to csmu\n";
+ print "enter your name: ";
+ my $name=<STDIN>;
+print "Your name is $name";
+ print "enter your mobile number : ";
+ my $mobilenumber=<STDIN>;
+print "Your name is $mobilenumber";
+print "enter your city: ";
+ my $city=<STDIN>;
+print "Your city is $city";
+print "enter your distrct: ";
+ my $district=<STDIN>;
+print "Your district is $district";
+print "enter your gender: ";
+ my $gender=<STDIN>;
+print "Your gender is $gender";
+print "enter your Fathername: ";
+ my $fathername=<STDIN>;
+print "Your fathername is $fathername";
+print "enter your mothername: ";
+ my $mothername=<STDIN>;
+print "Your mothername is $mothername";
+print "enter your pincode: ";
+ my $pincode=<STDIN>;
+print "Your pincode is $pincode";
+print "enter your Semester: ";
+ my $semester=<STDIN>;
+print "Your semester is $semester";
+print "enter your coursename: ";
+ my $coursename=<STDIN>;
+print "Your coursename is $coursename";
+[22:48, 2/24/2023] Sahil CSMU: print"enter your name : ";
+$name=<>;
+print"enter your score for the 1st subject: ";
+$s1=<>;
+print"enter your score for the 2nd subject: ";
+$s2=<>;
+print"enter your score for the 3rd subject : ";
+$s3=<>;
+print"enter your score for the 4th subject : ";
+$s4=<>;
+print"enter your score for the 5th subject: ";
+$s5=<>;
+
+$score=($s1+$s2+$s3+$s4+$s5)/500*100;
+print"your score is $score";
+if($score<0 && $score>100)
+{
+	print"the number is invalid \n";
+}
+elsif($score>0 && $score<40)
+{
+	print"Grade C :";
+}
+elsif($score>=40 && $score<60)
+{
+	print"Grade B :";
+}
+elsif($score>=60 && $score<74)
+{
+	print"Grade A :";
+}
+elsif($score>75)
+{
+	print"Distinfication";
+}
+else
+{
+	print"the number is invalid";
+}
+
+
+
+
+
+
+
+
+
+
+
+print"enter the number :";
+my $num=<STDIN>;
+if($num%2==0)
+{
+	print"the number is even :";
+}
+else
+{
+	print "the number is odd : ";
+}
+
+
+
+
+
+
+
+

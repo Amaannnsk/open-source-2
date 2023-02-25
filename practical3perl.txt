@@ -1,0 +1,31 @@
+This is the 3 lab of Perl!
+ 
+1. nested for loop:
+
+for (i=0: i<=10: i++)
+{ for(j=0; j<=10; j++)
+       {
+           print "i";
+       }
+}
+Q. Write a program to print i=111222333, j
+
+q. write a program to print
+*
+**
+***
+****
+*****
+Q. Write a program to print
+1
+22
+333
+4444
+55555
+
+Q. write a program to print
+*****
+****
+***
+**
+*
